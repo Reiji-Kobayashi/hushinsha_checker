@@ -13,3 +13,5 @@ def reshape():
         img_resizeimg_resize = img_resizeimg_resize.convert('L')
         ftitle, fext =  os.path.splitext(f)
         img_resizeimg_resize.save(ftitle + fext)
+
+reshape()

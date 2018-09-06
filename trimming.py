@@ -39,3 +39,5 @@ def trim():
             #認識結果の保存
             a = cv2.imwrite(save_path, dst)
             no += 1
+
+trim()
